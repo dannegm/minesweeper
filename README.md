@@ -88,6 +88,6 @@ messages:
 - Activate with every mob
 - Save mines into a YML file
 
-** Found a bug? **
+**Found a bug?**
 
 Please report the issue into our github repo
