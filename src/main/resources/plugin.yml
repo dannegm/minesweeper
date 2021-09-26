@@ -1,0 +1,33 @@
+name: Minesweeper
+version: 1.2.21
+main: im.dnn.Minesweeper.Minesweeper
+api-version: 1.17
+commands:
+  get:
+    description: Get a mine of the desired block
+    usage: /get <material> [amount]
+  cleanall:
+    description: Remove all the mines in the server
+    usage: /cleanall
+permissions:
+  minesweeper.bypass:
+    description: Avoid to exploit a mine
+    default: false
+  minesweeper.defuse:
+    description: Allow to defuse a mine
+    default: false
+  minesweeper.craft:
+    description: Allow to craft a mine
+    default: false
+  minesweeper.place:
+    description: Allow to place a mine
+    default: false
+  minesweeper.get:
+    description: Allow to get a mine with a command
+    default: false
+  minesweeper.give:
+    description: Allow to give a mine to a user with a command
+    default: false
+  minesweeper.cleanall:
+    description: Allow to clean all the mines with a command
+    default: false
